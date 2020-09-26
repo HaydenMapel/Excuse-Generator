@@ -36,17 +36,3 @@ let excuse = () => {
     when[whenIndex]
   );
 };
-
-// let who = ["The dog", "My grandma", "His turtle", "My bird", "My brother"];
-// let action = ["ate", "peed", "crushed", "broke", "stole"];
-// let what = ["my homework", "the keys", "the car", "the money"];
-// let when = [
-//     "before the class",
-//     "right on time",
-//     "when I finished",
-//     "during my lunch"
-//   ];
-//   let phrase = document.querySelector("#excuse");
-//   let y = Math.floor(Math.random() * 4);
-//   let i = who[y] + " " + action[y] + " " + what[y] + " " + when[y];
-//   phrase.innerHTML = i;
