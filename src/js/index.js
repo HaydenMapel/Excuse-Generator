@@ -1,12 +1,12 @@
 /* eslint-disable */
 
-import "breathecode-dom"; //DOM override to make JS easier to use
+// import "breathecode-dom"; //DOM override to make JS easier to use
 import "../style/index.scss";
 
 window.onload = () => {
-  //   document.querySelector("#button").addEventListener("click", () => {
-  document.querySelector("#excuse").innerHTML = excuse();
-  //   });
+  document.getElementById("button").addEventListener("click", () => {
+    document.getElementById("excuse").innerHTML = excuse();
+  });
 };
 
 let excuse = () => {
